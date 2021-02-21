@@ -20,71 +20,71 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .search {
-// 	margin-left: 30rem;
-// 	margin-top: 2.5rem;
-// 	width: 50%;
+.search {
+	margin-left: 30rem;
+	margin-top: 2.5rem;
+	width: 50%;
 
-// 	&__field {
-// 		padding: 0 2rem;
-// 		height: 5rem;
-// 		width: 30rem;
-// 		display: inline-block;
-// 		border: none;
-// 		border-radius: 3rem 0 0 3rem;
-// 		font-size: 1.7rem;
-// 		font-weight: 600;
-// 		font-family: inherit;
-// 		line-height: 1.7;
-// 		color: inherit;
+	&__field {
+		padding: 0 2rem;
+		height: 5rem;
+		width: 30rem;
+		display: inline-block;
+		border: none;
+		border-radius: 3rem 0 0 3rem;
+		font-size: 1.7rem;
+		font-weight: 600;
+		font-family: inherit;
+		line-height: 1.7;
+		color: inherit;
 
-// 		&:focus {
-// 			outline: none;
-// 		}
+		&:focus {
+			outline: none;
+		}
 
-// 		&::-moz-placeholder {
-// 			color: $color-grey-dark-2;
-// 		}
+		&::-moz-placeholder {
+			color: var(--color-grey-dark-2);
+		}
 
-// 		&:-ms-input-placeholder {
-// 			color: $color-grey-dark-2;
-// 		}
+		&:-ms-input-placeholder {
+			color: var(--color-grey-dark-2);
+		}
 
-// 		&::placeholder {
-// 			color: $color-grey-dark-2;
-// 		}
-// 	}
+		&::placeholder {
+			color: var(--color-grey-dark-2);
+		}
+	}
 
-// 	&__btn {
-// 		background-image: linear-gradient(
-// 			to right,
-// 			$color-tiffany-default,
-// 			$color-sky-blue
-// 		);
-// 		color: $color-white;
-// 		padding: 1rem;
-// 		transform: translateX(-7rem);
-// 		display: inline-block;
-// 		width: 20rem;
-// 		height: 5rem;
-// 		border: none;
-// 		border-radius: 3rem;
-// 		transition: all 0.3s;
+	&__btn {
+		background-image: linear-gradient(
+			to right,
+			var(--color-tiffany-default),
+			var(--color-sky-blue)
+		);
+		color: --color-white;
+		padding: 1rem;
+		transform: translateX(-7rem);
+		display: inline-block;
+		width: 20rem;
+		height: 5rem;
+		border: none;
+		border-radius: 3rem;
+		transition: all 0.3s;
 
-// 		&:hover {
-// 			box-shadow: 0 1rem 1.5rem rgba($color-black, 0.2);
-// 		}
+		&:hover {
+			box-shadow: 0 1rem 1.5rem rgba(var(--color-black), 0.2);
+		}
 
-// 		span {
-// 			font-size: 2rem;
-// 			font-weight: 200;
-// 		}
-// 	}
+		span {
+			font-size: 2rem;
+			font-weight: 200;
+		}
+	}
 
-// 	&__icon {
-// 		width: 20%;
-// 		height: 60%;
-// 		fill: $color-white;
-// 	}
-// }
+	&__icon {
+		width: 20%;
+		height: 60%;
+		fill: var(--color-white);
+	}
+}
 </style>
